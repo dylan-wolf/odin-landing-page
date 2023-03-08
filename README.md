@@ -1,2 +1,2 @@
 # odin-landing-page
-Recreation of Odin Landing Page 
+This project is a recreation of Odin Landing Page.
