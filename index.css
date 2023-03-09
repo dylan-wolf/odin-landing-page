@@ -1,12 +1,19 @@
+/* Holds Body, Top Navigation, and Quote Space */
+
+body{
+    padding:0;
+    margin:0;
+}
+
 .top_navigation {
     background-color: #1F2937;
     display: flex;
     height: 75px;
-    text-decoration: none;
-    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
+    padding:none;
+    margin: 0;
 }
 .links {
     padding-left: 55%;
@@ -16,4 +23,24 @@
 .Odin {
     padding-left: 25px;
     font-size: 24px;
+}
+
+.quote {
+    padding: 10%;
+    background-color: #E5E7EB;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.quote > .quotation {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote > .speaker {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight:  bolder;
+    text-align: right;
 }

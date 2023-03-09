@@ -1,18 +1,68 @@
+/* Holds Signup sections, Favorite Songs, and Copyright */
+
 .top_signup {
     background-color: #1F2937;
     display: flex;
     height: 75px;
-    text-decoration: none;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
+    gap: 10%;
+    padding: 10%;
+    padding-left:20%;
+    padding-right: 17%;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.info_col{
+.col {
     flex: 50%;
 }
-.picture_col {
-    flex: 50%;
+.button{
+    background-color: #3882f6;
+    color: white;
+    border:none;
+    width: 94px;
+    color:#E5E7EB;
+    height: 28px;
+    border-radius: 4px;
+}
+.random_info {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #F9FAF8;
+    display: flex;
+    color:#1F2937;
+    align-items: center;
+    justify-content: center;
+
+}
+.random_info > p {
+    font-weight: bolder;
+    font-size: 40px;
+}
+.images{
+    background-color: #F9FAF8;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color:#1F2937;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    border-radius: 12px;
+}
+.image_text {
+    text-align: center;
+}
+
+.row > .images > .image_text img {
+    border-radius: 12px;
+}
+.row > .images > .image_text p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1F2937;
+    size: 12px;
+    font-size: 12px;;
 }
 .copyright{
     padding-top: 10px;
